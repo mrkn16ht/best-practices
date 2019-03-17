@@ -1,6 +1,6 @@
 Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
-Example Output:
+**Example Output:**
 ```
 1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16 17 Fizz 19 Buzz
 Fizz 22 23 Fizz Buzz 26 Fizz 28 29 FizzBuzz 31 32 Fizz 34 Buzz Fizz 37 38 Fizz Buzz
@@ -8,3 +8,21 @@ Fizz 22 23 Fizz Buzz 26 Fizz 28 29 FizzBuzz 31 32 Fizz 34 Buzz Fizz 37 38 Fizz B
 61 62 Fizz 64 Buzz Fizz 67 68 Fizz Buzz 71 Fizz 73 74 FizzBuzz 76 77 Fizz 79 Buzz
 Fizz 82 83 Fizz Buzz 86 Fizz 88 89 FizzBuzz 91 92 Fizz 94 Buzz Fizz 97 98 Fizz Buzz
 ```
+**Answer**
+
+i=1
+counter=1
+while(i<=100):
+    if counter%20==1:
+        print('\n')
+    if i%15==0:
+        print('FizzBuzz', end=' ')
+    elif i%3==0:
+        print('Fizz', end=' ')
+    elif i%5==0:
+        print('Buzz', end=' ')
+    else:
+        print(i, end=' ')
+    i+=1
+    counter+=1
+   
