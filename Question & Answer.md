@@ -8,7 +8,7 @@ Fizz 22 23 Fizz Buzz 26 Fizz 28 29 FizzBuzz 31 32 Fizz 34 Buzz Fizz 37 38 Fizz B
 61 62 Fizz 64 Buzz Fizz 67 68 Fizz Buzz 71 Fizz 73 74 FizzBuzz 76 77 Fizz 79 Buzz
 Fizz 82 83 Fizz Buzz 86 Fizz 88 89 FizzBuzz 91 92 Fizz 94 Buzz Fizz 97 98 Fizz Buzz
 ```
-**Answer**
+**Answer (Check easy1.py)**
 
 ```python
 i=1
@@ -27,4 +27,3 @@ while(i<=100):
     i+=1
     counter+=1
 ```
-   
