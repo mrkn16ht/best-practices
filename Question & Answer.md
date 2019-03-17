@@ -11,7 +11,7 @@ Let’s start with the good-old trusty todo list, the “Hello, World” of full
 
 **Answer: todolist.py**
 ```python
-def checktasks ():
+def checktasks():
     with open('todolistnew.txt', 'r+') as todo_file:
         print('Please check your tasks: ', todo_file.name)
         tasks=todo_file.read()
