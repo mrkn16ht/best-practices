@@ -72,10 +72,10 @@ checkinput4()
 
 ```
 
-**Easy 1**
+**[Easy 1]**
 Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
-**Example Output:** -- **Answer (check easy1.py)**
+**Example Output:**
 ```
 1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16 17 Fizz 19 Buzz
 Fizz 22 23 Fizz Buzz 26 Fizz 28 29 FizzBuzz 31 32 Fizz 34 Buzz Fizz 37 38 Fizz Buzz
@@ -103,7 +103,7 @@ while(i<=100):
     counter+=1
 ```
 
-**Easy 2**
+**[Easy 2]**
 Write a program that determine whether or not an integer input is a leap year.
 
 Definition of leap year:
@@ -134,7 +134,7 @@ else:
     print(year, '-> false')
 ```
 
-**Easy 3.1**
+**[Easy 3.1]**
 Write a program that produce the following output giving an integer input n.
 
 **Example Output:** -- **Answer (check easy3_1.py)**
