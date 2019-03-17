@@ -10,6 +10,7 @@ Fizz 82 83 Fizz Buzz 86 Fizz 88 89 FizzBuzz 91 92 Fizz 94 Buzz Fizz 97 98 Fizz B
 ```
 **Answer**
 
+```python
 i=1
 counter=1
 while(i<=100):
@@ -25,4 +26,5 @@ while(i<=100):
         print(i, end=' ')
     i+=1
     counter+=1
+```
    
