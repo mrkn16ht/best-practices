@@ -10,7 +10,6 @@ Fizz 22 23 Fizz Buzz 26 Fizz 28 29 FizzBuzz 31 32 Fizz 34 Buzz Fizz 37 38 Fizz B
 Fizz 82 83 Fizz Buzz 86 Fizz 88 89 FizzBuzz 91 92 Fizz 94 Buzz Fizz 97 98 Fizz Buzz
 ```
 **Answer (check easy1.py)**
-
 ```python
 i=1
 counter=1
@@ -49,7 +48,6 @@ Example: 2004, 2008, 1012 are leap year.
 2008 -> true
 2010 -> false
 ```
-
 **Answer (check easy2.py)**
 
 ```python
@@ -61,6 +59,51 @@ elif year%400!=0 and year%100!=0 and year%4==0:
 else:
     print(year, '-> false')
 ```
+**Easy 3.1**
+Write a program that produce the following output giving an integer input n.
 
-**Easy 3**
+**Example Output:**
+```
+n=3   n=4    n=6
+*     *      *
+**    **     **
+***   ***    ***
+      ****   ****
+             *****
+             ******
+```
+**Answer (check easy3_1.py)**
+```python
+number = int(input('Please input number (n): '))
+for i in range(number):
+    print('*' * (i+1))
+```
+
+**Easy 3.2**
+Write a program that produce the following output giving an integer input n.
+
+**Example Output:**
+```
+n=3    n=4      n=6
+  *      *        *
+ **     **       **
+***    ***      ***
+      ****     ****
+              *****
+             ******
+```
+**Answer (check easy3_2.py)**
+```python
+number = int(input('Please input number (n): '))
+blank=number-1
+star=1
+for a in range (0, number):
+    for b in range (0, blank):
+        print(end=' ')
+    blank-=1
+    for c in range (0, star):
+        print('*', end='')
+    star+=1
+    print()
+```
 
