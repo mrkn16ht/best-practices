@@ -113,7 +113,7 @@ Example: 1600, 2000 etc. are leap year while 1500, 1700 are not leap year.
 * Rule 2: If year is not divisible by 400 as well as 100 but it is divisible by 4 then that year are also leap year.
 Example: 2004, 2008, 1012 are leap year.
 
-**Example Output:** -- **Answer (check easy2.py)**
+**Example Output:**
 ```
 1600 -> true
 2000 -> true
@@ -137,7 +137,7 @@ else:
 **[Easy 3.1]**
 Write a program that produce the following output giving an integer input n.
 
-**Example Output:** -- **Answer (check easy3_1.py)**
+**Example Output:**
 ```
 n=3   n=4    n=6
 *     *      *
@@ -158,7 +158,7 @@ for i in range(number):
 **[Easy 3.2]**
 Write a program that produce the following output giving an integer input n.
 
-**Example Output:** -- **Answer (check easy3_2.py)**
+**Example Output:**
 ```
 n=3    n=4      n=6
   *      *        *
@@ -187,7 +187,7 @@ for a in range (0, number):
 **[Easy 3.3]**
 Write a program that produce the following output giving an integer input n.
 
-**Example Output: -- Answer check easy3_3.py**
+**Example Output:**
 ```
 n=1    n=2      n=3       n=4       n=5
 *       *        *         *         *
@@ -215,7 +215,7 @@ for a in range (0, number):
 **[Easy 3.4]**
 Write a program that produce the following output giving an integer input n.
 
-**Example Output: -- Answer check easy3_4.py**
+**Example Output:**
 ```
 n=1  n=2  n=3    n=4    n=5
  *   **   * *   *  *   *   *
@@ -255,6 +255,7 @@ Write a program that produce the following output giving an integer input n.
                                 
 n=1  n=2  n=3   n=4    n=5        n=9
 ```
+
 **Answer: easy3_5.py**
 ```python
 number = int(input('Please input number (n): '))
@@ -282,7 +283,7 @@ for a in range (center-1, -1, -1):
 **[Easy 3.6]**
 Write a program that produce the following output giving an integer input n.
 
-**Example Output:
+**Example Output:**
 ```
 n=1   n=2    n=3       n=4
 +     A+B   AA+BB    AAA+BBB
@@ -337,7 +338,7 @@ for a in range (center-1, -1, -1):
 **[Medium 1]**
 Write a program that finds all prime numbers up to n for input n. 
 
-**Example Output:
+**Example Output:**
 ```
 20 -> 2 3 5 7 11 13 17 19
 ```
