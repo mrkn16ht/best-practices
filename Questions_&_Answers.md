@@ -357,5 +357,5 @@ for a in range(2,number+1):
         prime.append(a)
 
 print(number, '-> ', end='')
-print(*prime, sep=' ')
+print(*prime)
 ```
