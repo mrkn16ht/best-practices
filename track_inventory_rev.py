@@ -169,7 +169,7 @@ inventory.setdefault('Serial Number', [])
 inventory.setdefault('Value', []) 
 big_menu()
 
-##uncomment to save to my_invent.json
-##exist_inv_to_dict()
-##with open('my_invent.json', 'w') as json_file:
-##    json.dump(inventory, json_file)
+##save inventory dictionary to my_invent.json
+exist_inv_to_dict()
+with open('my_invent.json', 'w') as json_file:
+    json.dump(inventory, json_file)
