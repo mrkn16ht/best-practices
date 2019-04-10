@@ -51,7 +51,7 @@ def exist_inv_to_dict():
     if file_name.is_file():
         with open('my_invent.csv') as csv_file:
             reader = csv.reader(csv_file)
-            header = next(reader)
+            # header = next(reader)
             for row in reader:
                 inventory['Name'].append(row[0])
                 inventory['Serial Number'].append(row[1])
@@ -150,7 +150,7 @@ def find_inv():
 
 def find_again():
     find_again = '0'
-    while find_again != '1' or add_again != '2':
+    while find_again != '1' or find_again != '2':
         find_again=input('\nDo you want to find any other inventory?\nPlease enter 1 for Yes or 2 for No? ')
         if find_again == '1':
             find_inv()
@@ -173,3 +173,4 @@ big_menu()
 exist_inv_to_dict()
 with open('my_invent.json', 'w') as json_file:
     json.dump(inventory, json_file)
+
